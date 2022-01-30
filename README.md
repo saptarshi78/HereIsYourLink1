@@ -45,17 +45,20 @@ Requires APIKEY: shorte.st, bc.vc, pubiza, linkvertise, bit.ly, post, cutt.ly, a
 <b>Other Variables:</b>
 
 - `OWNER_ID`: Bot's owner id. Send `/id` to `t.me/MissRose_bot` in private to get your id Required for logs. If you don't want, leave it empty
-- `shortest`: Enter Api Key if you want.
-- `bcvc`: Enter Api Key if you want.
-- `pubiza`: Enter Api Key if you want.
-- `linkvertise`: Enter Api Key if you want.
-- `bitly`: Enter Api Key if you want.
-- `post`: Enter Api Key if you want.
-- `cuttly`: Enter Api Key if you want.
-- `adfly`: Enter Api Key if you want.
-- `shortcm`: Enter Api Key if you want.
-- `tinycc`: Enter Api Key if you want.
-- `ouoio`: Enter Api Key if you want.
+- Shortener Variables:
+  - Not required signup: `v.gd`, `da.gd`, `is.gd`, `ttm.sh`, `clck.ru`, `chilp.it`, `osdb`, `owly`
+  - Required signup: `shorte.st`, `bc.vc`, `pubiza`, `linkvertise`, `bit.ly`, `post`, `cutt.ly`, `adf.ly`, `shortcm`, `tinycc`, `tinyurl`, `ouo.io`
+  - `shortest`: Enter Api Key if you want.
+  - `bcvc`: Enter Api Key if you want. bc.vc sample api: `"2dgdg5f1fgag7cg6f0622&uid=45634"`
+  - `pubiza`: Enter Api Key if you want. pubiza sample api: `"hsdfgCgdgrsdfgsfgfgsdgLsfgXef mainstream"`. Split api key and ad type with a space. Genel içerik için: `mainstream` Yetişkin içerik için: `adult` İçerik Kilidi için: `content_locker`
+  - `linkvertise`: Enter Api Key if you want.
+  - `bitly`: Enter Api Key if you want.
+  - `post`: Enter Api Key if you want.
+  - `cuttly`: Enter Api Key if you want.
+  - `adfly`: Enter Api Key if you want. adfly sample api: `"hsdfgCgdgrsdfgsfgfgsdgLsfgXef 51515155"` Split api key and user id with a space.
+  - `shortcm`: Enter Api Key if you want. shortcm sample api: `"hsdfgCgdgrsdfgsfgfgsdgLsfgXef abcdotcom"` Split api key and domain with a space.
+  - `tinycc`: Enter Api Key if you want. tinycc sample api: `"hsdfgCgdgrsdfgsfgfgsdgLsfgXef tinyccusername"` Split api key and username with a space.
+  - `ouoio`: Enter Api Key if you want.
 - `AUTO_DEL_SEC`: Global auto deletion seconds. Default 10.
 - `AUTO_SHORT_MOTOR`: If you want auto shorting, fill like `is.gd`. Useful for groups / channels. Auto Shorting. Default None. If you dont want, dont fill.
 - `DELETE_AUTO_SHORTENED`: Auto delete, auto-shortened link; after `AUTO_DEL_SEC` secs. Default False.
