@@ -25,6 +25,10 @@
 
 🇹🇷 Telegram Link Kısaltıcı Bot (11 + 9 Kısaltıcı)
 
+All supported domains: v.gd, da.gd, is.gd, ttm.sh, clck.ru, chilp.it, osdb, tinyurl, owly
+
+Requires APIKEY: shorte.st, bc.vc, pubiza, linkvertise, bit.ly, post, cutt.ly, adf.ly, shortcm, tinycc, ouo.io
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/HuzunluArtemis/ShortenerBot)
 
 ## Setting up config file
